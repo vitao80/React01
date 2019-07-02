@@ -1,0 +1,17 @@
+header#main-header {
+    background: #fff;
+    height: 72px;
+    border-bottom: 1px solid #DDD;
+}
+
+header#main-header .header-content {
+    width: 100%; /* utilizar 100%, bom para mobile */
+    max-width: 980px; /* se for a largura maior ex. browser */
+    margin: 0 auto; /* centralizar */
+    height: 72px;
+    padding: 0 30px;
+
+    display: flex; /* utilizar flex box */
+    align-items: center;
+    justify-content: space-between; /* vai mostrar um item a esq e o outro a dir */
+}
